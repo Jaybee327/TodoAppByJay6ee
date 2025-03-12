@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App By Jaybee</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.7.2-web/css/all.min.css">
+</head>
+
+<body>
+    <div class="App-Container" id="App-Containerid">
+        <section class="header-Container">
+            <p>My ToDo</p>
+        </section>
+
+        <section class="Scheduled-Boxes">
+            <div id="Boxes" class="Today-Container">
+                <div class="flexGap">
+                    <i id="Tday-icon" class="fa fa-regular fa-calendar"></i>
+                    <span>0</span>
+                </div>
+                <p>Today</p>
+            </div>
+
+            <div id="Boxes" class="Scheduled-Container">
+                <div class="flexGap">
+                    <i id="Schld-icon" class="fa fa-regular fa-calendar-days"></i>
+                    <span id="ScheduledListCountidValue">0</span>
+                </div>
+                <p>Scheduled</p>
+            </div>
+
+            <div id="Boxes" class="completed-Container">
+                <div class="flexGap">
+                    <i id="Cmplte-icon" class="fa fa-regular fa-calendar-check"></i>
+                    <span>0</span>
+                </div>
+                <p>Completed</p>
+            </div>
+        </section>
+
+        <section class="Reminders-Container">
+            <p>My Reminder List</p>
+        </section>
+
+        <section>
+            <div id="RemiD" class="Reminder1Container">
+                <div class="remflexbox1">
+                    <i id="Rem-icon" class="fa fa-list-ul"></i>
+                    <p>Reminders</p>
+                </div>
+
+                <div class="remflexbox2">
+                    <span>0</span>
+                    <i id="angleRighticon" class="fa fa-angle-right"></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="ScheduledLists">
+                <p class="ScheduledTaskP">Scheduled Task</p>
+            <ul id="Scheduled-Ulist-id">
+                <!-- <li></li> -->
+            </ul>
+        </section>
+
+        <section id="Addtask-btn" class="footer-section">
+            <i class="fa fa-plus"></i>
+            <p>Add Schedule Task</p>
+        </section>
+
+        <section id="addTaskPage" class="addTaskPageClass">
+            <div id="inputId">
+                <input id="inputTextiD" type="text" placeholder="Add Task Name">
+                <button class="addedfinalbtn">ADD</button>
+            </div>
+
+            <p class="add-dateP">Select Date</p>
+            <div class="monthSelectArea">
+                <p>month</p>
+                <select name="month" id="monthDropdowniD">
+                    <option id="months" value="">Jan</option>
+                    <option id="months" value="">Feb</option>
+                    <option id="months" value="">Mar</option>
+                    <option id="months" value="">Apr</option>
+                    <option id="months" value="">May</option>
+                    <option id="months" value="">Jun</option>
+                    <option id="months" value="">Jul</option>
+                    <option id="months" value="">Aug</option>
+                    <option id="months" value="">Sep</option>
+                    <option id="months" value="">Oct</option>
+                    <option id="months" value="">Nov</option>
+                    <option id="months" value="">Dec</option>
+                </select>
+                <select name="Day" id="dayDropdowniD">
+                    <option id="days" value="">0</option>
+                    <option id="days" value="">1</option>
+                    <option id="days" value="">2</option>
+                    <option id="days" value="">3</option>
+                    <option id="days" value="">4</option>
+                    <option id="days" value="">5</option>
+                    <option id="days" value="">6</option>
+                    <option id="days" value="">7</option>
+                    <option id="days" value="">8</option>
+                    <option id="days" value="">9</option>
+                    <option id="days" value="">10</option>
+                    <option id="days" value="">11</option>
+                </select>
+            </div>
+        </section>
+
+        <!-- <ol id="oltest">
+            <li>j</li>
+            <li>j</li>
+            <li>j</li>
+        </ol> -->
+
+
+
+
+
+
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
